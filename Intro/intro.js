@@ -21,7 +21,6 @@
 // const totalUsers = userCount ?? defaultCount;
 
 //* loops
-let newString = "";
 let num = 0;
 const string = "abracadabra";
 const array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
@@ -32,14 +31,14 @@ const object = {
   d: 4,
 };
 
-// for (let i = 0; i < string.length; i++) {
-//   console.log(string[i]);
+// for (let i = 0; i < array.length; i++) {
+//   console.log(array[i]);
 // }
-// for (const letter of string) {
-//   console.log(letter);
-// }
-// for (const key in string) {
+// for (const key of array) {
 //   console.log(key);
+// }
+// for (const key in array) {
+//   console.log(array[key]);
 // }
 // while (num < 10) {
 //   console.log("hello");
